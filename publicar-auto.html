@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vende tu auto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="general">
+            <span id="BtnMenu" class="barra-nav">MENU</span>
+            <nav class="navegacion">
+              <ul class="menu" id="menu">
+                <li class="lista-nav"><a href="index.html">HOME</a></li>
+                <li class="lista-nav"><a href="autos.html">MARCAS</a></li>
+                <li class="lista-nav"><a href="publicar-auto.html">VENDE TU AUTO</a></li>
+                <li class="lista-nav"><a href="captcha.html">REGISTRO</a></li>
+              </ul>
+            </nav>
+        </section>
+    </header>
+   <h3>VENDE TU AUTO</h3> 
+<div class="contenedor-publicar">
+    <form class="publicar">
+        <label for="modelo">Modelo</label>
+        <input type="text" name="modelo" placeholder="Ingrese Modelo" id="modelo">
+
+        <label for="tipo">Tipo</label>
+        <input type="text" name="Tipo" placeholder="Ingrese Tipo del auto" id="tipo">
+
+        <label for="km">Km</label>
+        <input type="number" min="1" name="km" placeholder="Ingrese Km" id="km">
+
+        <label for="color">Color</label>
+        <input type="text" name="color" placeholder="Ingrese Color" id="color">
+       
+        <div class="botones">
+            <button type="button" id="btn-agregar1">Agregar 1</button>
+            <button type="button" id="btn-agregar3">Agregar 3</button>
+            <button type="button" id="btn-vaciar">Vaciar</button>
+        </div>
+    </form>
+   <div class="tabla-autos">
+    <table id="tablaVender">
+        <thead>
+         <th>Modelo</th>
+         <th>Tipo</th>
+         <th>Km</th>
+         <th>Color</th>
+        </thead>
+    </table>
+   </div>
+</div>
+<footer>
+    <p>GRACIAS POR ELEGIRNOS!</p>
+</footer>
+
+<script src="./js/main.js"></script>
+<script src="./js/publicar-auto.js"></script>
+</body>
+</html>

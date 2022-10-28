@@ -1,0 +1,427 @@
+/*CSS INDEX*/
+body{background-image:url("../images/fondo-body.jpg");
+    margin: 0%;
+    
+
+}
+
+h1,h2{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-size: 2.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    }
+h4{color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;}
+
+p{
+    font-size: 2.0em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    justify-content: center;
+    text-align: center;
+
+}
+thead{background-color: rgb(15, 15, 27);}
+    
+td{background-color: rgb(25, 39, 51);
+       align-items: center;
+       text-align: center;
+       color: white;}
+    
+
+a{ display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+button{ font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    border-radius: 60px;
+
+}
+
+label{ font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+
+
+.general{max-width: 100%;
+         margin: auto;
+
+}
+
+
+
+.menu{ list-style: none;
+    margin: 0;
+    padding:0;
+    background-color: rgb(50, 50, 89);
+    width: 100%;
+    margin-left: -100%;
+    display:block;
+    transition: all 0.5s;
+   
+}
+.barra-nav{
+    background-color: black;
+    padding: 15px;
+    display: block;
+    color: white;
+    font-size: 0.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+
+.lista-nav{border-style:double;
+    border-color: white;}
+
+
+.mostrar{
+    margin-left:0;
+}
+
+
+.titulo{ font-size: 1.5cm;
+ 
+
+    
+}
+
+.informacion{padding: 15px 0;
+    text-align: center;
+    
+
+}
+
+.pastilla-marcas{ background-image:
+    linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("../images/pastilla-marcas.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    
+}
+
+.pastilla-contactos{ background-image: 
+    linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),url("../images/pastilla-horarios.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    
+}
+
+.pastilla-registro{ background-image:
+    linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("../images/pastilla-registro.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.pastilla-registro button{
+    height: 70px;
+    width: 90px; 
+    border-radius: 60px;}
+
+.pastilla-contactos , .pastilla-marcas , .pastilla-registro{
+    border-radius: 20px;
+    margin: 15px;
+    padding: 30px;
+}
+
+.horarios{
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+     url("../images/imagen-horarios.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    justify-content: center;
+    padding: 90px 20px;
+    color: white;
+    
+    
+}
+.logo{ display:flex;
+justify-content: center;}
+
+.imagen-logo{ width: 50px;
+             height: 50px;
+            border-radius: 30px;} 
+
+.tabla{justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.tabla,td,tr{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse:collapse ;
+  
+
+}
+table{width: 100%;}
+
+/*CSS AUTOS*/
+
+.imagen{border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.seccion-autos{max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+  
+
+
+}
+.autos{
+background-color: rgb(179, 189, 214);
+justify-content: center;
+padding: 30px;
+align-items: center;
+text-align: center;
+border-radius: 70px;
+margin-bottom: 70px;}
+
+
+
+
+
+.lista-autos{margin-top: 5px;
+font-style: italic;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font: bold 1.0rem Helvetica, Arial, sans-serif;
+justify-content: center;
+align-items: center;}
+
+/*CSS CAPTCHA Y FORMULARIO DINAMICO*/
+
+.botones{padding: 10px;}
+
+.contenedor{
+    justify-content: center;
+    text-align: center;
+    margin: 0 20%;
+    border-style: groove;
+    border-color: rgb(72, 79, 97);
+    border-width: 0.5cm;
+   
+}
+
+.formulario{ padding: 20px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+#btn{ margin-top: 20px;
+
+}
+
+.palabra-captcha{ font-size: 2.0em;
+
+}
+
+
+.publicar{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: double;
+    border-color: rgb(179, 189, 214);
+    border-width: 0.2cm;
+
+}
+
+
+
+/*Quary Desktop*/
+
+
+@media (min-width:720px) {
+    /*CSS INDEX*/
+label{padding: 5px;}
+
+input{text-align: center;}
+
+thead{background-color: rgb(15, 15, 27);}
+    
+td{background-color: rgb(25, 39, 51);
+       align-items: center;
+       text-align: center;
+       color: white;}
+
+
+h1,h2{justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding-top: 20px;}
+
+
+h3,h4{ justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+p{text-align: center;}
+
+.barra-nav{
+    display: none;
+    width: 100%;
+}
+.menu{margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+
+    
+
+}
+
+.lista-nav{ border-style: none;
+    justify-content: center;
+
+    
+    
+
+}
+/*CSS AUTOS*/
+
+.autos{ background-color: rgb(179, 189, 214);
+      border-radius: 80px;
+      
+      
+
+}
+
+.seccion-autos{ display: block ;
+    width: 400px; 
+}
+
+
+/*CSS CAPTCHA Y FORMULARIO DINAMICO*/
+
+.padre{max-width: 1000px;
+justify-content: center;
+margin: auto;}
+
+.contenedor{ height: 430px;
+    border-style: double;
+    border-color: rgba(179, 189, 214);
+    border-width: 0.4cm;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor-publicar{max-width: 1000px;
+    justify-content: center;
+    margin: auto}
+
+.formulario{
+    padding: 10px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+   
+
+}
+
+
+.publicar{
+    padding: 50px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: double;
+    border-color: rgb(179, 189, 214);
+    border-width: 0.4cm;
+   
+    
+
+}
+
+.botones{justify-content: center;
+align-items: center;
+padding-top: 20px;}
+
+.tabla-autos{
+padding-top: 20px;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
