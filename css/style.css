@@ -133,7 +133,7 @@ label{ font-family: Georgia, 'Times New Roman', Times, serif;
     linear-gradient(0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
-    ), url("../images/pastilla-marcas.jpg");
+    ), url("../images/porsche-carrera-911-black-f4.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
@@ -144,7 +144,7 @@ label{ font-family: Georgia, 'Times New Roman', Times, serif;
     linear-gradient(0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
-    ),url("../images/pastilla-horarios.jpg");
+    ),url("../images/BMW-iX3-trompa.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
@@ -155,7 +155,7 @@ label{ font-family: Georgia, 'Times New Roman', Times, serif;
     linear-gradient(0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
-    ), url("../images/pastilla-registro.jpg");
+    ), url("../images/ferrarif40.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
@@ -176,7 +176,7 @@ label{ font-family: Georgia, 'Times New Roman', Times, serif;
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
     ),
-     url("../images/imagen-horarios.jpg");
+     url("../images/BMW-iX3-trompa.jpg");
     background-size: cover;
     background-position: center center;
     text-align: center;
