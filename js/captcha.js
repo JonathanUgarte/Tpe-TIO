@@ -1,5 +1,5 @@
-let v1= Math.floor(Math.random()*(20-0))+0;
-let v2= Math.floor(Math.random()*(20-1))+1;
+let v1= Math.floor(Math.random()*(15-1))+0;
+let v2= Math.floor(Math.random()*(15-1))+1;
 let ResultadoDeCaptcha= v1 + v2;
 
 
