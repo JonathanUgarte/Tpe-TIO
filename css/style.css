@@ -226,7 +226,7 @@ table{width: 100%;}
 
 }
 .autos{
-background-color: rgb(179, 189, 214);
+background-color: rgb(93, 127, 212);
 justify-content: center;
 padding: 30px;
 align-items: center;
@@ -343,7 +343,7 @@ p{text-align: center;}
 }
 /*CSS AUTOS*/
 
-.autos{ background-color: rgb(179, 189, 214);
+.autos{ background-color: rgb(93, 127, 212);
       border-radius: 80px;
       
       
