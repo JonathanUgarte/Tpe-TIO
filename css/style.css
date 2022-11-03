@@ -5,6 +5,10 @@ body{background-image:url("../images/fondo-body.jpg");
 
 }
 
+.galeria {
+    color: blueviolet;
+}
+
 h1,h2{font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color: white;
