@@ -11,7 +11,7 @@ body{background-image:url("../images/fondo-body.jpg");
 
 h1,h2{font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    color: white;
+    color: rgb(30, 255, 0);
     align-content: center;
     justify-content: center;
     text-align: center;
